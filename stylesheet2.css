@@ -1,0 +1,27 @@
+
+
+.about-container{
+
+ 
+  background-color: #D3DEDC; /* Used if the image is unavailable */
+   
+   /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  opacity: 0.6;
+
+}
+
+
+
+
+h1{
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    text-align: center;
+}
+.disk{
+    padding-left: 100px;
+}
+
