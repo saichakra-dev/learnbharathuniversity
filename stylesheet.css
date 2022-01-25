@@ -1,0 +1,188 @@
+.navbar-nav {
+  margin: 7.5px 0px;
+}
+@media all and (max-width: 600px) {
+  .navbar-nav {
+      margin: 7.5px 0px;
+  }   
+  .navbar .nav > li {
+      display: block;
+  }
+  .navbar .nav > li  img {
+      margin: auto;
+  }
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.iframe-container{
+
+  position: relative;
+  
+  top: 50px;
+  text-align: center;
+}
+.headings{
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.body-container{
+  position: relative;
+  height: 200px;
+  width: 1000px;
+}*/
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+img:hover{
+  opacity: 0.6;
+}
+img{
+  border-radius: 30%;
+  border: 10px solid #263238;
+}
+
+
+
+.column {
+  
+  float: left;
+  padding-top: 50px;
+  position: relative;
+  text-align: center;
+  color:white;
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 2rem;
+  
+}
+.column-image{
+  border: 10px solid #263238;
+  
+
+}
+@media screen and (max-width : 320px)
+{
+  .coloumn
+  {
+    font:1rem;
+  }
+}
+@media screen and (max-width : 1204px)
+{
+  .coloumn
+  {
+    font:2rem;
+  }
+}
+
+.top-image{
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+.centered {
+  position:absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ; display:inline-block;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer-logo{
+  padding-left:10px;
+  padding-top:10px;
+  padding-right: 10px;
+  position:relative;
+  height: 250px;
+  width:250px;
+  float:left;
+
+
+}
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+.cse-pdfs{
+  padding-top: 50px;
+  text-align: center;
+  
+  
+  background-color: gainsboro;
+}
+table{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+tr:nth-child(odd) {
+  background-color:#F2FFE9;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 23px;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
