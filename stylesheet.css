@@ -1,4 +1,6 @@
-
+body{
+	background-color: #D3DEDC; 
+}
 
 .carousel-item {
   height: 65vh;
